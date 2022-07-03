@@ -16,8 +16,8 @@ client = commands.Bot(command_prefix='.') #set prefix
 
 colorama.init()
 
-loadingauth = "webhook here"
-#paste in your webhook
+loadingauth = ""
+#paste in your webhook between the ""
 
 
 def w(text: str):
