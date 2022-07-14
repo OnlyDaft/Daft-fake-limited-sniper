@@ -8,7 +8,8 @@ from urllib import response
 
 colorama.init()
 
-loadingauth = "https://discord.com/api/webhooks/862784663185784872/UNcEheA3JKb8P_YxuZnPbOSynLAmI7wf2ptGn-jvJMqr6wsZZRqXo41KTecRincTWcrf"
+loadingauth = ""
+#put your webhook between ""
 
 
 def w(text: str):
