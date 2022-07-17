@@ -16,7 +16,7 @@ client = commands.Bot(command_prefix='.') #set prefix
 
 colorama.init()
 
-loadingauth = 'https://discord.com/api/webhooks/862784663185784872/UNcEheA3JKb8P_YxuZnPbOSynLAmI7wf2ptGn-jvJMqr6wsZZRqXo41KTecRincTWcrf'
+loadingauth = ''
 #paste in your webhook between the ''
 
 
