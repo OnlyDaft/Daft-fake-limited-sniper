@@ -29,7 +29,7 @@ def w(text: str):
 
 def startup():
     System.Clear()
-    System.Title("Unknown Sniper")
+    System.Title("Limited Sniper")
     System.Size(200, 60)
 
 
@@ -38,7 +38,7 @@ startup()
 
 def main():
  
-    w("Welcome to Unknown Limited Sniper! We will alert you if there's any cheap limiteds! Please press enter to continue: ")
+    w("Welcome to our Limited Sniper! We will alert you if there's any cheap limiteds! Please press enter to continue: ")
     cookiedata = Write.Input("cookie -> ",
                              Colors.purple_to_blue,
                              interval=0.005)
